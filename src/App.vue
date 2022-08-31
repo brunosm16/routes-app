@@ -14,6 +14,24 @@ export default {
   components: {
     NavigationBar,
   },
+
+  mounted() {
+    this.setRouteParams();
+  },
+
+  methods: {
+    setRouteParams() {
+      setTimeout(() => {
+        this.$router.push({
+          name: 'contact',
+          params: {
+            name: 'Bruno Silveira',
+            city: 'Fortaleza',
+          },
+        });
+      }, 5000);
+    },
+  },
 };
 </script>
 
