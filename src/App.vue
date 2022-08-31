@@ -1,8 +1,19 @@
 <template>
   <div id="app">
-    <span>root app</span>
+    <NavigationBar />
   </div>
 </template>
 
-<style scoped lang="scss">
-</style>
+<script>
+import NavigationBar from '@/components/NavigationBar.vue';
+
+export default {
+  name: 'App',
+
+  components: {
+    NavigationBar,
+  },
+};
+</script>
+
+<style scoped lang="scss"></style>
