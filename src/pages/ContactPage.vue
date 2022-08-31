@@ -1,6 +1,6 @@
 <template>
   <div class="contact">
-    <span>About Component</span>
+    <span>Contact Component</span>
   </div>
 </template>
 
